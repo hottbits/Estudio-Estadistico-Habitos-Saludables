@@ -45,3 +45,7 @@ plt.title('Distribución de Horas de Sueño en Universitarios')
 plt.legend()
 plt.savefig('distribucion_sueno.png')
 plt.show()
+# Guardar el dataset para la entrega
+df.to_csv('dataset_universitarios.csv', index=False)
+df.to_excel('dataset_universitarios.xlsx', index=False)
+print("✅ Archivos de datos creados para el Entregable 2.")
